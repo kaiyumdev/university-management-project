@@ -1,26 +1,29 @@
-import express, { Application, Request, Response } from 'express'
-import usersService from './app/modules/users/users.service'
+import express, { Application } from 'express'
 import cors from 'cors'
 import userRouter from './app/modules/users/users.route'
+import globalErrorHandler from './middlewares/globalErrorHandler'
 const app: Application = express()
 
-//use cors
+// use cors
 app.use(cors())
 
-//use express parser
+// use express parser
 app.use(express.json())
 
 app.use(express.urlencoded({ extended: true }))
 
+// Application routes
+// console.log(process.env);
+
 app.use('/api/v1/users', userRouter)
 
-app.get('/', async (req: Request, res: Response) => {
-  await usersService.createUser({
-    id: '9999',
-    password: '1234',
-    roll: 'student',
-  })
-  res.send('Working Successfully!')
-})
+// // Testing routes
+// app.get('/', (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error(400, 'Ora Baba Error')
+//   // next('Ora Baba Error')
+// })
+
+// global error handler
+app.use(globalErrorHandler)
 
 export default app
