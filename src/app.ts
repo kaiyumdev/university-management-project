@@ -1,7 +1,7 @@
 import express, { Application } from 'express'
 import cors from 'cors'
-import userRouter from './app/modules/users/users.route'
 import globalErrorHandler from './middlewares/globalErrorHandler'
+import { UserRoutes } from './app/modules/users/user.route'
 const app: Application = express()
 
 // use cors
@@ -15,12 +15,11 @@ app.use(express.urlencoded({ extended: true }))
 // Application routes
 // console.log(process.env);
 
-app.use('/api/v1/users', userRouter)
+app.use('/api/v1/users', UserRoutes)
 
-// // Testing routes
-// app.get('/', (req: Request, res: Response, next: NextFunction) => {
-//   throw new Error(400, 'Ora Baba Error')
-//   // next('Ora Baba Error')
+// Testing routes
+// app.get('/', async (req: Request, res: Response, next: NextFunction) => {
+//   throw new Error('Testing error logger!')
 // })
 
 // global error handler
