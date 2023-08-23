@@ -6,16 +6,6 @@
     "auditLog": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/.70d8c6990b104884949f7aead486d4d7bcd646e0-audit.json",
     "files": [
         {
-            "date": 1691570981506,
-            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-09-08-14-success.log",
-            "hash": "c942e0ec30591c9c142a8e7bba023a7bfc9cfa67ce399a661eaa4342ff297987"
-        },
-        {
-            "date": 1691577240186,
-            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-09-08-16-success.log",
-            "hash": "3d4fce2c4ad6f1f4bdd21b4d373d7ab950d19429815f7677a842d540e5537583"
-        },
-        {
             "date": 1691588079714,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-09-08-19-success.log",
             "hash": "4cec8559888ea0fa27c423b55c8e41c3379d3d405a92b44ed66609b215c3c7d4"
@@ -94,6 +84,16 @@
             "date": 1692767195072,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-08-11-success.log",
             "hash": "3eef52f2f15ca44be0f1ab8ae81f68f69fdfdfa883697f27cfd962e10e747df0"
+        },
+        {
+            "date": 1692787389665,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-08-16-success.log",
+            "hash": "807885277c96a966fc6239e5ce73a1eb6fb7c9ffd3196c159350eb94ea541f84"
+        },
+        {
+            "date": 1692788736143,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-08-17-success.log",
+            "hash": "0e6355fe9438e9dd814dd658a8126b693a620668ca6935cba7ea4118135dc916"
         }
     ],
     "hashType": "sha256"
