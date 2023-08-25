@@ -3,9 +3,9 @@
 import { ErrorRequestHandler } from 'express'
 import config from '../config'
 import { IGenericErrorMessage } from '../interfaces/error'
-import handleValidationError from '../errors/handleValidationerror'
 import ApiError from '../errors/ApiError'
 import { errorLogger } from '../shared/logger'
+import handleValidationError from '../errors/handleValidationerror'
 
 const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
   // eslint disable next line no-unused-expressions
@@ -24,7 +24,7 @@ const globalErrorHandler: ErrorRequestHandler = (error, req, res, next) => {
     errorMessage = simplifiedError.errorMessage
   } else if (error instanceof ApiError) {
     statusCode = error?.statusCode
-    message = error?.message
+    message = error.message
     errorMessage = error?.message
       ? [
           {
