@@ -94,6 +94,11 @@
             "date": 1693001492884,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-26-08-04-error.log",
             "hash": "756b2ab0f7203d4b41216e01055017214df75be4841d88cd0f7356f6a5b14287"
+        },
+        {
+            "date": 1693025779932,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-26-08-10-error.log",
+            "hash": "13493edd39b7979e8cbed96ff9dfcd46dfd3ac2b3c6713e65f1704739f9ac44f"
         }
     ],
     "hashType": "sha256"
