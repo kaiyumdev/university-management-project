@@ -6,21 +6,6 @@
     "auditLog": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/.70d8c6990b104884949f7aead486d4d7bcd646e0-audit.json",
     "files": [
         {
-            "date": 1692767195072,
-            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-08-11-success.log",
-            "hash": "3eef52f2f15ca44be0f1ab8ae81f68f69fdfdfa883697f27cfd962e10e747df0"
-        },
-        {
-            "date": 1692787389665,
-            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-08-16-success.log",
-            "hash": "807885277c96a966fc6239e5ce73a1eb6fb7c9ffd3196c159350eb94ea541f84"
-        },
-        {
-            "date": 1692788736143,
-            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-08-17-success.log",
-            "hash": "0e6355fe9438e9dd814dd658a8126b693a620668ca6935cba7ea4118135dc916"
-        },
-        {
             "date": 1692976338206,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-25-08-21-success.log",
             "hash": "b03f7ad114015bdf7f5727a3c611a5c5cde6a522ce8bf2b1a542d149a1addca2"
@@ -69,6 +54,16 @@
             "date": 1693924768311,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-05-09-20-success.log",
             "hash": "2b53d95721a6f85fa068cd083b4597325c4f8fa9dd5dde54ffaad2dd6e080590"
+        },
+        {
+            "date": 1693982213967,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-06-09-12-success.log",
+            "hash": "15fbe48399a2aa3e071e183a373a85997bd810074f4111b26a961da95d0248c2"
+        },
+        {
+            "date": 1694006705231,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-06-09-19-success.log",
+            "hash": "fd1e156b30ac181e6455df550c22af82ce7b8a14d871f24821323beb401dc780"
         }
     ],
     "hashType": "sha256"
