@@ -69,6 +69,21 @@
             "date": 1694020393151,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-06-09-23-error.log",
             "hash": "426931abfe0e8279fc7cdec24fe6d6936ee5977cd4946ba4e97f7b1ed87166c9"
+        },
+        {
+            "date": 1694062836295,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-07-09-11-error.log",
+            "hash": "2d04f17a984ac07733e06f9d1dd931ff1e29ab4dc6d38b0d4a9017e41ab11d9b"
+        },
+        {
+            "date": 1694067386911,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-07-09-12-error.log",
+            "hash": "4635c7116627e7da4c35a84e92bbe2ed19bf1d7d0bbfa1ff946cefcd1d1b49ef"
+        },
+        {
+            "date": 1694076507011,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-07-09-14-error.log",
+            "hash": "a56297b15fe13822da6582e307c539eddac985f4d24fcfe298e59d21637c31e9"
         }
     ],
     "hashType": "sha256"
