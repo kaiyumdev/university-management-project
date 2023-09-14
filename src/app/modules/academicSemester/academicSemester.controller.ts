@@ -17,12 +17,6 @@ const createSemester = catchAsync(
     //   message: 'Academic semester is created successfully',
     //   data: result,
     // });
-    next();
-    // res.status(200).json({
-    //   success: true,
-    //   message: 'Academic semester is created successfully',
-    //   data: result,
-    // });
     sendResponse(res, {
       statusCode: httpStatus.OK,
       success: true,
