@@ -79,6 +79,16 @@
             "date": 1695474371240,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-09-19-success.log",
             "hash": "07248d182452b004cb1263bdf08c85ef461cafbe00c3ebb3598937f2c7ec43f8"
+        },
+        {
+            "date": 1695477723671,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-23-09-20-success.log",
+            "hash": "6a18023692c3ad45a517b7e532ff80f45b10c0bb4f65151ec7da715b1803c2f2"
+        },
+        {
+            "date": 1695495738080,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-24-09-01-success.log",
+            "hash": "c274c9a971888ba7ca306eae90ec1dcbd45eb8b3a67b3620c0cf47fb591af878"
         }
     ],
     "hashType": "sha256"
