@@ -50,44 +50,40 @@ const createSemester = catchAsync(
 //   },
 // );
 
-const getAllSemesters = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
-    const filters = pick(req.query, academicSemesterFilterableFields);
-    const paginationOptions = pick(req.query, paginationFields);
+const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
+  const filters = pick(req.query, academicSemesterFilterableFields);
+  const paginationOptions = pick(req.query, paginationFields);
 
-    // ...
+  // ...
 
-    const result = await AcademicSemesterService.getAllSemesters(
-      filters,
-      paginationOptions,
-    );
-    sendResponse<IAcademicSemester[]>(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'Semesters retrieved successfully',
-      meta: result.meta,
-      data: result.data,
-    });
-    next();
-  },
-);
+  const result = await AcademicSemesterService.getAllSemesters(
+    filters,
+    paginationOptions,
+  );
+  sendResponse<IAcademicSemester[]>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'Semesters retrieved successfully',
+    meta: result.meta,
+    data: result.data,
+  });
+  // next();
+});
 
 // Remove next() call in getSingleSemester as well
 
-const getSingleSemester = catchAsync(
-  async (req: Request, res: Response, next: NextFunction) => {
-    const id = req.params.id;
+const getSingleSemester = catchAsync(async (req: Request, res: Response) => {
+  const id = req.params.id;
 
-    const result = AcademicSemesterService.getSingleSemester(id);
-    sendResponse<IAcademicSemester>(res, {
-      statusCode: httpStatus.OK,
-      success: true,
-      message: 'retrieved single semester successfully',
-      data: result,
-    });
-    next();
-  },
-);
+  const result = await AcademicSemesterService.getSingleSemester(id);
+  sendResponse<IAcademicSemester | null | undefined>(res, {
+    statusCode: httpStatus.OK,
+    success: true,
+    message: 'retrieved single semester successfully',
+    data: result,
+  });
+  // next();
+});
 
 export const AcademicSemesterController = {
   createSemester,
