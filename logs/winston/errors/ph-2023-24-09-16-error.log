@@ -1,0 +1,2 @@
+Sun Sep 24 2023 16:53:58 GMT+0600 (Bangladesh Standard Time) 16:53:58 [university management!] error: Cast to ObjectId failed for value "650fcfabe5aeec1de3748" (type string) at path "_id" for model "AcademicSemester"
+Sun Sep 24 2023 16:58:40 GMT+0600 (Bangladesh Standard Time) 16:58:40 [university management!] error: Cast to ObjectId failed for value "650fcfabe5" (type string) at path "_id" for model "AcademicSemester"
