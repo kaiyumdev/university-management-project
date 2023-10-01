@@ -2,7 +2,7 @@ import { SortOrder } from 'mongoose';
 import { paginationHelpers } from '../../../helpers/paginationHelper';
 import { IGenericResponse } from '../../../interfaces/common';
 import { IPaginationOptions } from '../../../interfaces/pagination';
-import { academicFacultySearchableFields } from './academicFaculty.constants';
+// import { academicFacultySearchableFields } from './academicFaculty.constants';
 import {
   AcademicFacultyCreatedEvent,
   AcademicFacultyUpdatedEvent,
@@ -10,6 +10,7 @@ import {
   IAcademicFacultyFilters,
 } from './academicFaculty.interfaces';
 import { AcademicFaculty } from './academicFaculty.model';
+import { academicFacultySearchableFields } from './academicFaculty.constant';
 
 const createFaculty = async (payload: IAcademicFaculty) => {
   const result = await AcademicFaculty.create(payload);
