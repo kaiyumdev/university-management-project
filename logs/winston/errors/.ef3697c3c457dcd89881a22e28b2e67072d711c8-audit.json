@@ -1,160 +1,175 @@
 {
-  "keep": {
-    "days": true,
-    "amount": 14
-  },
-  "auditLog": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/.ef3697c3c457dcd89881a22e28b2e67072d711c8-audit.json",
-  "files": [
-    {
-      "date": 1695181982017,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-09-error.log",
-      "hash": "dd42155dc4724901a21b342a4ad59bdc843b30ea242f60add371532fc5fd311c"
+    "keep": {
+        "days": true,
+        "amount": 14
     },
-    {
-      "date": 1695184960867,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-10-error.log",
-      "hash": "ede487fd070b216fd765c06d8f0178ce75aa981cd503fec5ec442beb47312cd4"
-    },
-    {
-      "date": 1695186132809,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-11-error.log",
-      "hash": "da0cd2103cd3450f6a6e4c3e30971fadbdcc4c1bcaa5bfaee8d468c4a175816a"
-    },
-    {
-      "date": 1695214227037,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-18-error.log",
-      "hash": "05fa5226ae6925ad9f0434ba6d7f20d77318b96a6ee5bd7513d15259a1cf2822"
-    },
-    {
-      "date": 1695222379338,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-21-error.log",
-      "hash": "b276ddf194b4f08f453e3ac489f7f6593174394f6aa8ebc9cc8a3723f4d8f29b"
-    },
-    {
-      "date": 1695230239305,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-23-error.log",
-      "hash": "dc5889c03554c02ad7e7205e75718d77620622008560faa9f6575ec4f828c7fe"
-    },
-    {
-      "date": 1695408331461,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-00-error.log",
-      "hash": "c1f62796f89160f65593bc98d939bf63782727c2f7a134b208a9c66878ec2359"
-    },
-    {
-      "date": 1695456294564,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-14-error.log",
-      "hash": "e2df2ee756b9b73ca00172158a0e7f03343aa90b48370990c2cf12a8c2b98e9f"
-    },
-    {
-      "date": 1695465207023,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-16-error.log",
-      "hash": "b5d213d3ff3725fff1cc22a220f335dc15d1fe4b812a7390e5f64fa2727a4005"
-    },
-    {
-      "date": 1695472589617,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-18-error.log",
-      "hash": "4d1e06365e1a1dcff74d150379253f5a33678f558600b836fc46ea6d17a78031"
-    },
-    {
-      "date": 1695474416685,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-19-error.log",
-      "hash": "776cc712af16168d3d5a2e7b2ad07890042d00b2da0fb2169b49f3a9662639c7"
-    },
-    {
-      "date": 1695477723710,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-20-error.log",
-      "hash": "da5061191b9e16b42875295da08f57d34045d912b47c64d84d37e9c269719dfb"
-    },
-    {
-      "date": 1695495738086,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-01-error.log",
-      "hash": "d195d8b59b5a0c780325374d687ffc6ef028663f2c86df8e685575d81c1cdf33"
-    },
-    {
-      "date": 1695499585107,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-02-error.log",
-      "hash": "2af2e8d12b0a1841f0398bab924db0192f8b776ee07b0016ec0150d1c7f72dcd"
-    },
-    {
-      "date": 1695531018020,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-10-error.log",
-      "hash": "32161eaf39c6a8ecea4908c727ab5132cae94e52240c7c1912b83f72e5b8ba36"
-    },
-    {
-      "date": 1695532554693,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-11-error.log",
-      "hash": "f17b8ee26cbb880ea35f5b02d96848fb5c6495ebd85c5ab6dcd8134bfeac33b4"
-    },
-    {
-      "date": 1695535207818,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-12-error.log",
-      "hash": "0db165769f6b4715ddc0914c990b99df889721eab360907f24e446f09638197d"
-    },
-    {
-      "date": 1695550195549,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-16-error.log",
-      "hash": "cb56a9d33f8a0282618fe39f26561761d359a500c445c36b4206727a84111d11"
-    },
-    {
-      "date": 1695553644130,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-17-error.log",
-      "hash": "6cb1923e4c61b36bb25aecd447424ed1386388d1813aaac9e3576b375da34658"
-    },
-    {
-      "date": 1695558721037,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-18-error.log",
-      "hash": "cf0ed012449e1b7f2be9c8b7ff7dd53d147c99673bd12ddca96217bc55596c09"
-    },
-    {
-      "date": 1695560481067,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-19-error.log",
-      "hash": "b6f401a53a8c58ac6d1bd71098040015948d305bc94612348e7035cec7cbcadc"
-    },
-    {
-      "date": 1695564466746,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-20-error.log",
-      "hash": "cfa1fb827dd928763ef6356d6e704f5508c2eefbe9b1a07327a842a968417556"
-    },
-    {
-      "date": 1695570603328,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-21-error.log",
-      "hash": "0f7a1482fd8c450ff8b7b9976082f8792a471fc6158d9f7737284c3b812f0e88"
-    },
-    {
-      "date": 1695571315466,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-22-error.log",
-      "hash": "cbbb0493012e891cf917a9bdec24e718340fbbceaf6a28c2c29513436d57ba00"
-    },
-    {
-      "date": 1695584024933,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-01-error.log",
-      "hash": "321556ee8f4409c4f9e9487ea6c81652e1652a9edfedeb2ff77c37a6b05ddc82"
-    },
-    {
-      "date": 1695587603072,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-02-error.log",
-      "hash": "308d0c6aa5e0c9a2a32b6ce819920725b71d43137a20478bf0a5dc33bdafa0d5"
-    },
-    {
-      "date": 1695637246041,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-16-error.log",
-      "hash": "d76f1c84769db879577f35207ccb60b5da1f3f6e06f0e79137f1b449c43c7799"
-    },
-    {
-      "date": 1695640066549,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-17-error.log",
-      "hash": "bebae5be6ce61c29e698b207413ff31219be774f99b48110fb99bd75629839df"
-    },
-    {
-      "date": 1696079303186,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-30-09-19-error.log",
-      "hash": "ec6ca3e160fcc97ad85a27b957ff3b2be21afe7239a372aee46eadf6c1f4d170"
-    },
-    {
-      "date": 1696091528137,
-      "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-30-09-22-error.log",
-      "hash": "f9521a615229baeb6f6e32cc54f8498fca487f344111b760eb41a10c72a94383"
-    }
-  ],
-  "hashType": "sha256"
+    "auditLog": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/.ef3697c3c457dcd89881a22e28b2e67072d711c8-audit.json",
+    "files": [
+        {
+            "date": 1695181982017,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-09-error.log",
+            "hash": "dd42155dc4724901a21b342a4ad59bdc843b30ea242f60add371532fc5fd311c"
+        },
+        {
+            "date": 1695184960867,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-10-error.log",
+            "hash": "ede487fd070b216fd765c06d8f0178ce75aa981cd503fec5ec442beb47312cd4"
+        },
+        {
+            "date": 1695186132809,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-11-error.log",
+            "hash": "da0cd2103cd3450f6a6e4c3e30971fadbdcc4c1bcaa5bfaee8d468c4a175816a"
+        },
+        {
+            "date": 1695214227037,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-18-error.log",
+            "hash": "05fa5226ae6925ad9f0434ba6d7f20d77318b96a6ee5bd7513d15259a1cf2822"
+        },
+        {
+            "date": 1695222379338,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-21-error.log",
+            "hash": "b276ddf194b4f08f453e3ac489f7f6593174394f6aa8ebc9cc8a3723f4d8f29b"
+        },
+        {
+            "date": 1695230239305,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-20-09-23-error.log",
+            "hash": "dc5889c03554c02ad7e7205e75718d77620622008560faa9f6575ec4f828c7fe"
+        },
+        {
+            "date": 1695408331461,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-00-error.log",
+            "hash": "c1f62796f89160f65593bc98d939bf63782727c2f7a134b208a9c66878ec2359"
+        },
+        {
+            "date": 1695456294564,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-14-error.log",
+            "hash": "e2df2ee756b9b73ca00172158a0e7f03343aa90b48370990c2cf12a8c2b98e9f"
+        },
+        {
+            "date": 1695465207023,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-16-error.log",
+            "hash": "b5d213d3ff3725fff1cc22a220f335dc15d1fe4b812a7390e5f64fa2727a4005"
+        },
+        {
+            "date": 1695472589617,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-18-error.log",
+            "hash": "4d1e06365e1a1dcff74d150379253f5a33678f558600b836fc46ea6d17a78031"
+        },
+        {
+            "date": 1695474416685,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-19-error.log",
+            "hash": "776cc712af16168d3d5a2e7b2ad07890042d00b2da0fb2169b49f3a9662639c7"
+        },
+        {
+            "date": 1695477723710,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-23-09-20-error.log",
+            "hash": "da5061191b9e16b42875295da08f57d34045d912b47c64d84d37e9c269719dfb"
+        },
+        {
+            "date": 1695495738086,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-01-error.log",
+            "hash": "d195d8b59b5a0c780325374d687ffc6ef028663f2c86df8e685575d81c1cdf33"
+        },
+        {
+            "date": 1695499585107,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-02-error.log",
+            "hash": "2af2e8d12b0a1841f0398bab924db0192f8b776ee07b0016ec0150d1c7f72dcd"
+        },
+        {
+            "date": 1695531018020,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-10-error.log",
+            "hash": "32161eaf39c6a8ecea4908c727ab5132cae94e52240c7c1912b83f72e5b8ba36"
+        },
+        {
+            "date": 1695532554693,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-11-error.log",
+            "hash": "f17b8ee26cbb880ea35f5b02d96848fb5c6495ebd85c5ab6dcd8134bfeac33b4"
+        },
+        {
+            "date": 1695535207818,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-12-error.log",
+            "hash": "0db165769f6b4715ddc0914c990b99df889721eab360907f24e446f09638197d"
+        },
+        {
+            "date": 1695550195549,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-16-error.log",
+            "hash": "cb56a9d33f8a0282618fe39f26561761d359a500c445c36b4206727a84111d11"
+        },
+        {
+            "date": 1695553644130,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-17-error.log",
+            "hash": "6cb1923e4c61b36bb25aecd447424ed1386388d1813aaac9e3576b375da34658"
+        },
+        {
+            "date": 1695558721037,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-18-error.log",
+            "hash": "cf0ed012449e1b7f2be9c8b7ff7dd53d147c99673bd12ddca96217bc55596c09"
+        },
+        {
+            "date": 1695560481067,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-19-error.log",
+            "hash": "b6f401a53a8c58ac6d1bd71098040015948d305bc94612348e7035cec7cbcadc"
+        },
+        {
+            "date": 1695564466746,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-20-error.log",
+            "hash": "cfa1fb827dd928763ef6356d6e704f5508c2eefbe9b1a07327a842a968417556"
+        },
+        {
+            "date": 1695570603328,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-21-error.log",
+            "hash": "0f7a1482fd8c450ff8b7b9976082f8792a471fc6158d9f7737284c3b812f0e88"
+        },
+        {
+            "date": 1695571315466,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-24-09-22-error.log",
+            "hash": "cbbb0493012e891cf917a9bdec24e718340fbbceaf6a28c2c29513436d57ba00"
+        },
+        {
+            "date": 1695584024933,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-01-error.log",
+            "hash": "321556ee8f4409c4f9e9487ea6c81652e1652a9edfedeb2ff77c37a6b05ddc82"
+        },
+        {
+            "date": 1695587603072,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-02-error.log",
+            "hash": "308d0c6aa5e0c9a2a32b6ce819920725b71d43137a20478bf0a5dc33bdafa0d5"
+        },
+        {
+            "date": 1695637246041,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-16-error.log",
+            "hash": "d76f1c84769db879577f35207ccb60b5da1f3f6e06f0e79137f1b449c43c7799"
+        },
+        {
+            "date": 1695640066549,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-25-09-17-error.log",
+            "hash": "bebae5be6ce61c29e698b207413ff31219be774f99b48110fb99bd75629839df"
+        },
+        {
+            "date": 1696079303186,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-30-09-19-error.log",
+            "hash": "ec6ca3e160fcc97ad85a27b957ff3b2be21afe7239a372aee46eadf6c1f4d170"
+        },
+        {
+            "date": 1696091528137,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-30-09-22-error.log",
+            "hash": "f9521a615229baeb6f6e32cc54f8498fca487f344111b760eb41a10c72a94383"
+        },
+        {
+            "date": 1696193303445,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-02-10-02-error.log",
+            "hash": "71c5afd54e45e9b6c74d4c0b6bef67710fb4f93b90a15ccdec36151702dee60a"
+        },
+        {
+            "date": 1696234569463,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-02-10-14-error.log",
+            "hash": "c65e27a0b6e29a10c5a3e5e0ba3aee0031af8c1f8d6c0ccde668f4ed5ddcdd9e"
+        },
+        {
+            "date": 1696265149572,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-02-10-22-error.log",
+            "hash": "a4b70c07076acc59a90171dff5eaf81e20f485ab10cc8a1e3b03a1224752e908"
+        }
+    ],
+    "hashType": "sha256"
 }
