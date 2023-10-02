@@ -1,0 +1,5 @@
+Tue Oct 03 2023 00:17:12 GMT+0600 (Bangladesh Standard Time) 0:17:12 [university management!] error: E11000 duplicate key error collection: university-management.academicfaculties index: syncId_1 dup key: { syncId: null }
+Tue Oct 03 2023 00:17:52 GMT+0600 (Bangladesh Standard Time) 0:17:52 [university management!] error: E11000 duplicate key error collection: university-management.academicfaculties index: syncId_1 dup key: { syncId: null }
+Tue Oct 03 2023 00:28:31 GMT+0600 (Bangladesh Standard Time) 0:28:31 [university management!] error: E11000 duplicate key error collection: university-management.academicfaculties index: syncId_1 dup key: { syncId: null }
+Tue Oct 03 2023 00:35:55 GMT+0600 (Bangladesh Standard Time) 0:35:55 [university management!] error: AcademicDepartment validation failed: syncId: Path `syncId` is required.
+Tue Oct 03 2023 00:36:20 GMT+0600 (Bangladesh Standard Time) 0:36:20 [university management!] error: AcademicDepartment validation failed: syncId: Path `syncId` is required.
