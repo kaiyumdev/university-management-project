@@ -1,0 +1,1 @@
+Mon Oct 02 2023 22:51:00 GMT+0600 (Bangladesh Standard Time) 22:51:0 [university management!] error: Cast to ObjectId failed for value "academic-departments" (type string) at path "_id" for model "AcademicSemester"
