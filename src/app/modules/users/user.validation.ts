@@ -10,12 +10,18 @@ const createUserZodSchema = z.object({
         }),
         middleName: z
           .string({
-            required_error: 'First name is required',
+            required_error: 'Middle name is required',
           })
           .optional(),
         lastName: z.string({
-          required_error: 'First name is required',
+          required_error: 'Last name is required',
         }),
+      }),
+      dateOfBirth: z.string({
+        required_error: 'Date of births is required',
+      }),
+      gender: z.enum(['male', 'female'], {
+        required_error: 'Gender is required',
       }),
     }),
   }),

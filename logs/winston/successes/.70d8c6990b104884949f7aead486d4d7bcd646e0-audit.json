@@ -214,6 +214,11 @@
             "date": 1696520073179,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-05-10-21-success.log",
             "hash": "7c3ed8cad6c9648869059b71e648ce5c295dbb76864391dbdea657dbf469b455"
+        },
+        {
+            "date": 1696521864717,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-05-10-22-success.log",
+            "hash": "016535e094453de734ff990283b5d002ffe3bc1a0af3c2007d7bf7fa7a2b5f7d"
         }
     ],
     "hashType": "sha256"
