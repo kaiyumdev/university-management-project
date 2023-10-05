@@ -1,0 +1,1 @@
+Thu Oct 05 2023 17:11:35 GMT+0600 (Bangladesh Standard Time) 17:11:35 [university management!] error: E11000 duplicate key error collection: university-management.academicfaculties index: syncId_1 dup key: { syncId: null }
