@@ -3,10 +3,7 @@ import cors from 'cors';
 import globalErrorHandler from './middlewares/globalErrorHandler';
 import routes from './app/routes';
 import httpStatus from 'http-status';
-// import {
-//   generateFacultyId,
-//   // generateStudentId,
-// } from './app/modules/users/user.utils';
+
 const app: Application = express();
 
 // use cors

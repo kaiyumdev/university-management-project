@@ -1,0 +1,4 @@
+Fri Oct 06 2023 21:29:22 GMT+0600 (Bangladesh Standard Time) 21:29:22 [university management!] error: E11000 duplicate key error collection: university-management.academicfaculties index: syncId_1 dup key: { syncId: null }
+Fri Oct 06 2023 21:30:21 GMT+0600 (Bangladesh Standard Time) 21:30:21 [university management!] error: E11000 duplicate key error collection: university-management.academicfaculties index: syncId_1 dup key: { syncId: null }
+Fri Oct 06 2023 21:37:50 GMT+0600 (Bangladesh Standard Time) 21:37:50 [university management!] error: E11000 duplicate key error collection: university-management.academicfaculties index: syncId_1 dup key: { syncId: null }
+Fri Oct 06 2023 21:47:19 GMT+0600 (Bangladesh Standard Time) 21:47:19 [university management!] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
