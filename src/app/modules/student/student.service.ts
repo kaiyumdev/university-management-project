@@ -55,7 +55,7 @@ const getAllStudents = async (
     .limit(limit);
 
   // Await countDocuments() to get the total count
-  const total = await Student.countDocuments();
+  const total = await Student.countDocuments(whereCondition);
 
   return {
     meta: {
@@ -77,16 +77,15 @@ const getSingleStudent = async (
   return result;
 };
 
-// const updateStudent = async (
-//   id: string,
-//   payload: Partial<IStudent>,
-// ): Promise<IStudent | null> => {
-
-//   const result = await Student.findOneAndUpdate({ _id: id }, payload, {
-//     new: true,
-//   });
-//   return result;
-// };
+const updateStudent = async (
+  id: string,
+  payload: Partial<IStudent>,
+): Promise<IStudent | null> => {
+  const result = await Student.findOneAndUpdate({ _id: id }, payload, {
+    new: true,
+  });
+  return result;
+};
 
 const deleteStudent = async (id: string): Promise<IStudent | null> => {
   const result = await Student.findByIdAndDelete(id)
@@ -99,6 +98,6 @@ const deleteStudent = async (id: string): Promise<IStudent | null> => {
 export const StudentService = {
   getAllStudents,
   getSingleStudent,
-  //   updateStudent,
+  updateStudent,
   deleteStudent,
 };
