@@ -23,6 +23,7 @@ async function main() {
   } catch (error) {
     errorLogger.error('Failed to connect database', error);
   }
+
   process.on('unhandledRejection', error => {
     console.log('unhandledRejection exception is detected');
     if (server) {
