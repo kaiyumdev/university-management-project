@@ -24,6 +24,7 @@ const createStudent = async (
     student.academicSemester,
   );
 
+  let newUserAllData = null;
   const session = await mongoose.startSession();
 
   try {
@@ -43,6 +44,7 @@ const createStudent = async (
     if (!newUser) {
       throw new ApiError(httpStatus.BAD_REQUEST, 'Failed to create user');
     }
+    newUserAllData = newUser[0];
 
     await session.commitTransaction();
     await session.endSession();
@@ -52,11 +54,29 @@ const createStudent = async (
     throw error;
   }
 
-  const createdUser = await User.create(user);
-  if (!createdUser) {
-    throw new ApiError(400, 'Failed to create user');
+  //user -> student -> academicSemester, academicDepartment, academicFaculty
+  if (newUserAllData) {
+    newUserAllData = await User.findOne({ id: newUserAllData.id }).populate({
+      path: 'student',
+      populate: [
+        {
+          path: 'academicSemester',
+        },
+        {
+          path: 'academicDepartment',
+        },
+        {
+          path: 'academicFaculty',
+        },
+      ],
+    });
   }
-  return createdUser;
+  return newUserAllData;
+  // const createdUser = await User.create(user);
+  // if (!createdUser) {
+  //   throw new ApiError(400, 'Failed to create user');
+  // }
+  // return createdUser;
 };
 
 export const UserService = {
