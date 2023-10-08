@@ -1,0 +1,1 @@
+Sat Oct 07 2023 20:20:59 GMT+0600 (Bangladesh Standard Time) 20:20:59 [university management!] error: Cast to ObjectId failed for value "create-faculty" (type string) at path "_id" for model "AcademicFaculty"
