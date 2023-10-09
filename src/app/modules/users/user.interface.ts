@@ -6,8 +6,8 @@ export type IUser = {
   role: string;
   password: string;
   student?: Types.ObjectId | IStudent;
-  // faculty?: Types.ObjectId | IFaculty; future
-  // admin?: Types.ObjectId | IAdmin; future
+  faculty?: Types.ObjectId;
+  admin?: Types.ObjectId;
 };
 
 export type UserModel = Model<IUser, Record<string, unknown>>;
