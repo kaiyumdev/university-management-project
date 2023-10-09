@@ -43,11 +43,3 @@ export const generateFacultyId = async (): Promise<string | undefined> => {
   incrementedId = `F-${incrementedId}`;
   return incrementedId;
 };
-
-// export const generateFacultyId = async (): Promise<string | undefined> => {
-//   const currentId =
-//     (await findLastFacultyId()) || (0).toString().padStart(5, '0');
-//   let incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
-//   incrementedId = `F-${incrementedId}`;
-//   return incrementedId;
-// };
