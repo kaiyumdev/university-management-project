@@ -73,20 +73,20 @@ const createUserZodSchema = z.object({
           required_error: 'Mother Contact No is required',
         }),
       }),
-      localGuardian: z.object({
-        name: z.string({
-          required_error: 'local guardian Name is required',
-        }),
-        occupation: z.string({
-          required_error: 'Father Occupation is required',
-        }),
-        contactNo: z.string({
-          required_error: 'Father Contact No is required',
-        }),
-        address: z.string({
-          required_error: 'Mother Name is required',
-        }),
-      }),
+      // localGuardian: z.object({
+      //   name: z.string({
+      //     required_error: 'local guardian Name is required',
+      //   }),
+      //   occupation: z.string({
+      //     required_error: 'Father Occupation is required',
+      //   }),
+      //   contactNo: z.string({
+      //     required_error: 'Father Contact No is required',
+      //   }),
+      //   address: z.string({
+      //     required_error: 'Mother Name is required',
+      //   }),
+      // }),
       profileImage: z.string().optional(),
     }),
   }),
