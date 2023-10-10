@@ -13,6 +13,20 @@ export const findLastStudentId = async (): Promise<string | undefined> => {
   return lastStudent?.id ? lastStudent.id.substring(4) : undefined;
 };
 
+// export const generateStudentId = async (
+//   academicSemester: IAcademicSemester | null,
+// ): Promise<string> => {
+//   const currentId =
+//     (await findLastStudentId()) || (0).toString().padStart(5, '0');
+
+//   let incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
+//   incrementedId = `${academicSemester.year.substring(2)}${
+//     academicSemester.code
+//   }${incrementedId}`;
+//   console.log(incrementedId);
+//   return incrementedId;
+// };
+
 export const generateStudentId = async (
   academicSemester: IAcademicSemester | null,
 ): Promise<string> => {
@@ -20,11 +34,17 @@ export const generateStudentId = async (
     (await findLastStudentId()) || (0).toString().padStart(5, '0');
 
   let incrementedId = (parseInt(currentId) + 1).toString().padStart(5, '0');
-  incrementedId = `${academicSemester.year.substring(2)}${
-    academicSemester.code
-  }${incrementedId}`;
-  console.log(incrementedId);
-  return incrementedId;
+
+  if (academicSemester) {
+    incrementedId = `${academicSemester.year.substring(2)}${
+      academicSemester.code
+    }${incrementedId}`;
+    console.log(incrementedId);
+    return incrementedId;
+  } else {
+    // Handle the case where academicSemester is null
+    throw new Error('Academic semester is null');
+  }
 };
 
 export const findLastFacultyId = async (): Promise<string | undefined> => {
