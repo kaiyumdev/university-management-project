@@ -134,6 +134,16 @@
             "date": 1696950050048,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-10-10-21-error.log",
             "hash": "84aa16de838426d32ad2906486858bba40128480c86b689d2a3c8d7c52e28c0f"
+        },
+        {
+            "date": 1696953680473,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-10-10-22-error.log",
+            "hash": "d2cbc15498c64b9c7f41cc27d272fbab959c221e2d59608d2dc14f8bb9ec8cdc"
+        },
+        {
+            "date": 1696958703126,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/errors/ph-2023-10-10-23-error.log",
+            "hash": "bae17d11ce93490d2f9eba718f1aeb168daf7d472ce5c6307f852eb5c74f1613"
         }
     ],
     "hashType": "sha256"
