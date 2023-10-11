@@ -28,6 +28,19 @@ const getAllStudents = catchAsync(async (req: Request, res: Response) => {
   // next();
 });
 
+// const getSingleStudent = catchAsync(async (req: Request, res: Response) => {
+//   const id = req.params.id;
+
+//   const result = await StudentService.getSingleStudent(id);
+//   sendResponse<IStudent | null | undefined>(res, {
+//     statusCode: httpStatus.OK,
+//     success: true,
+//     message: 'retrieved single semester successfully',
+//     data: result,
+//   });
+//   // next();
+// });
+
 const getSingleStudent = catchAsync(async (req: Request, res: Response) => {
   const id = req.params.id;
 
