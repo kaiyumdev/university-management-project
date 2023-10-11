@@ -70,6 +70,16 @@ const getAllStudents = async (
   };
 };
 
+// const getSingleStudent = async (
+//   id: string,
+// ): Promise<IStudent | null | undefined> => {
+//   const result = await Student.findOne({ _id: id })
+//     .populate('academicSemester')
+//     .populate('academicDepartment')
+//     .populate('academicFaculty');
+//   return result;
+// };
+
 const getSingleStudent = async (
   id: string,
 ): Promise<IStudent | null | undefined> => {
