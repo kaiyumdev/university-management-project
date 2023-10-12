@@ -23,7 +23,6 @@ const createSemester = catchAsync(
         message: 'Academic Semester created successfully',
         data: result,
       });
-      next();
     } catch (error) {
       next(error);
     }
@@ -67,7 +66,6 @@ const getAllSemesters = catchAsync(async (req: Request, res: Response) => {
     meta: result.meta,
     data: result.data,
   });
-  // next();
 });
 
 const getSingleSemester = catchAsync(async (req: Request, res: Response) => {
@@ -80,7 +78,6 @@ const getSingleSemester = catchAsync(async (req: Request, res: Response) => {
     message: 'retrieved single semester successfully',
     data: result,
   });
-  // next();
 });
 
 const updateSemester = catchAsync(async (req: Request, res: Response) => {
