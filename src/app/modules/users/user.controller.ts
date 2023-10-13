@@ -23,4 +23,5 @@ const createStudent: RequestHandler = catchAsync(
     });
   },
 );
+
 export const UserController = { createStudent };

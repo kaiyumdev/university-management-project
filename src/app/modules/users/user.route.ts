@@ -10,5 +10,4 @@ router.post(
   validateRequest(UserValidation.createUserZodSchema),
   UserController.createStudent,
 );
-
 export const UserRoutes = router;
