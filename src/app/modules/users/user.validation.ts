@@ -157,5 +157,3 @@ export const UserValidation = {
   createUserZodSchema,
   createFacultyZodSchema,
 };
-
-// await createUserZodSchema.parseAsync(req)
