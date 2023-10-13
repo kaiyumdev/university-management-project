@@ -95,7 +95,6 @@ const createUserZodSchema = z.object({
 const createFacultyZodSchema = z.object({
   body: z.object({
     password: z.string().optional(),
-
     faculty: z.object({
       name: z.object({
         firstName: z.string({
