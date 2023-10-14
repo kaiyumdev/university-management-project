@@ -40,6 +40,8 @@ const userSchema = new Schema<IUser>(
   },
 );
 
+//User.create() | user.save()
+
 userSchema.pre('save', async function (next) {
   //hashing user password
   const user = this;
