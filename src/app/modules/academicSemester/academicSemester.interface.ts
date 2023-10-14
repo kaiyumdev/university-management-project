@@ -28,6 +28,6 @@ export type IAcademicSemester = {
 
 export type IAcademicSemesterModel = Model<IAcademicSemester>;
 
-export type IAcademicSemesterFilers = {
+export type IAcademicSemesterFilters = {
   searchTerm?: string;
 };
