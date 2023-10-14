@@ -6,11 +6,6 @@
     "auditLog": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/.70d8c6990b104884949f7aead486d4d7bcd646e0-audit.json",
     "files": [
         {
-            "date": 1696079303137,
-            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-30-09-19-success.log",
-            "hash": "f448dc67fb674b550e5d31820a7d9a619149e9911a2562f3aa65427e01b395ba"
-        },
-        {
             "date": 1696091528132,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-30-09-22-success.log",
             "hash": "e17cbc1536a4b40b8cf636917074245094ca6f9fe2cf258928941d9b83ece783"
@@ -159,6 +154,21 @@
             "date": 1697286355322,
             "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-14-10-18-success.log",
             "hash": "b6d9bafc06e04c4a20a4591c9a24202f37b17e371ee79fedab378835ff7c01c9"
+        },
+        {
+            "date": 1697289033855,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-14-10-19-success.log",
+            "hash": "cf256cfc0d3299379634a488640a93556517f156511f1f098754b4cfd409584c"
+        },
+        {
+            "date": 1697293326639,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-14-10-20-success.log",
+            "hash": "33f127946d2c8059e053a2f5c8d2853c821426d73e0b7c8efa0f6e52f51f51ca"
+        },
+        {
+            "date": 1697295738353,
+            "name": "/media/kaiyum/Document/LEXT-LEVEL/Milestone-3/university-management-auth-service/logs/winston/successes/ph-2023-14-10-21-success.log",
+            "hash": "03334887a8983acfc36bb4ec7305a2cb958492e8e77282eb806f6e70b7f72c6f"
         }
     ],
     "hashType": "sha256"
