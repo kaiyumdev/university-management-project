@@ -3,11 +3,13 @@ import cors from 'cors';
 import globalErrorHandler from './middlewares/globalErrorHandler';
 import routes from './app/routes';
 import httpStatus from 'http-status';
+import cookieParser from 'cookie-parser';
 
 const app: Application = express();
 
 // use cors
 app.use(cors());
+app.use(cookieParser());
 
 // use express parser
 app.use(express.json());
