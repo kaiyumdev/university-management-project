@@ -29,7 +29,12 @@ const auth =
       let verifiedUser = null;
       verifiedUser = jwtHelpers.verifyToken(token, config.jwt.secret as Secret);
 
-      req.user = verifiedUser;
+      req.user = verifiedUser; //role, userId
+
+      //role deya guard korar jonno
+      if (requiredRoles.length && requiredRoles.includes(verifiedUser.role)) {
+        throw new ApiError(httpStatus.FORBIDDEN, 'Forbidden');
+      }
       next();
     } catch (error) {
       next(error);
