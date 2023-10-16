@@ -13,7 +13,7 @@ import {
 import config from '../../../config';
 import { jwtHelpers } from '../../../helpers/jwtHelpers';
 import { JwtPayload, Secret } from 'jsonwebtoken';
-import bcrypt from 'bcrypt';
+// import bcrypt from 'bcrypt';
 
 const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
   const { id, password } = payload;
@@ -98,10 +98,18 @@ const changePassword = async (
   user: JwtPayload | null,
   payload: IChangePassword,
 ): Promise<void> => {
-  const { oldPassword, newPassword } = payload;
+  const { oldPassword } = payload;
+
+  // const { oldPassword, newPassword } = payload;
 
   //checking is ser exist
-  const isUserExist = await User.isUserExist(user?.userId);
+  // const isUserExist = await User.isUserExist(user?.userId);
+
+  //alternative way to check change password
+  const isUserExist = await User.findOne({ id: user?.userId }).select(
+    '+password',
+  );
+
   if (!isUserExist) {
     throw new ApiError(httpStatus.NOT_FOUND, 'User does not exist');
   }
@@ -114,21 +122,25 @@ const changePassword = async (
     throw new ApiError(httpStatus.UNAUTHORIZED, 'Old password is incorrect');
   }
 
-  //hash password before saving
-  const newHashedPassword = await bcrypt.hash(
-    newPassword,
-    Number(config.bcrypt_salt_rounds as string),
-  );
+  // //hash password before saving
+  // const newHashedPassword = await bcrypt.hash(
+  //   newPassword,
+  //   Number(config.bcrypt_salt_rounds as string),
+  // );
 
-  const query = { id: user?.userId };
-  const updatedData = {
-    password: newHashedPassword,
-    needsPasswordChange: false,
-    passwordChangedAt: new Date(),
-  };
+  // const query = { id: user?.userId };
+  // const updatedData = {
+  //   password: newHashedPassword,
+  //   needsPasswordChange: false,
+  //   passwordChangedAt: new Date(),
+  // };
 
-  //update password
-  await User.findOneAndUpdate(query, updatedData);
+  // //update password
+  // await User.findOneAndUpdate(query, updatedData);
+
+  isUserExist.needsPasswordChange = false;
+  //updating using save()
+  isUserExist.save();
 };
 
 export const AuthService = {
