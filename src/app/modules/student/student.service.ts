@@ -9,6 +9,7 @@ import { Student } from './student.model';
 import ApiError from '../../../errors/ApiError';
 import httpStatus from 'http-status';
 
+//getAllStudents
 const getAllStudents = async (
   filters: IStudentFilters,
   paginationOptions: IPaginationOptions,
@@ -70,6 +71,7 @@ const getAllStudents = async (
   };
 };
 
+//getSingleStudent
 const getSingleStudent = async (
   id: string,
 ): Promise<IStudent | null | undefined> => {
@@ -80,6 +82,7 @@ const getSingleStudent = async (
   return result;
 };
 
+//getUpdatedStudent
 const updateStudent = async (
   id: string,
   payload: Partial<IStudent>,
