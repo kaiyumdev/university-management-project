@@ -13,6 +13,7 @@ export const findLastStudentId = async (): Promise<string | undefined> => {
   return lastStudent?.id ? lastStudent.id.substring(4) : undefined;
 };
 
+//generate student Id
 export const generateStudentId = async (
   academicSemester: IAcademicSemester | null,
 ): Promise<string> => {
@@ -43,6 +44,7 @@ export const findLastFacultyId = async (): Promise<string | undefined> => {
   return lastFaculty?.id ? lastFaculty.id.substring(2) : undefined;
 };
 
+//generate Faculty Id
 export const generateFacultyId = async (): Promise<string> => {
   const currentId =
     (await findLastFacultyId()) || (0).toString().padStart(5, '0');
@@ -62,6 +64,7 @@ export const findLastAdminId = async (): Promise<string | undefined> => {
   return lastFaculty?.id ? lastFaculty.id.substring(2) : undefined;
 };
 
+//generate admin Id
 export const generateAdminId = async (): Promise<string> => {
   const currentId =
     (await findLastAdminId()) || (0).toString().padStart(5, '0');
