@@ -15,6 +15,7 @@ import { jwtHelpers } from '../../../helpers/jwtHelpers';
 import { JwtPayload, Secret } from 'jsonwebtoken';
 // import bcrypt from 'bcrypt';
 
+//loginUser setUp
 const loginUser = async (payload: ILoginUser): Promise<ILoginUserResponse> => {
   const { id, password } = payload;
 
