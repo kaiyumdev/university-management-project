@@ -97,6 +97,7 @@ userSchema.pre('save', async function (next) {
   //hashing user password
   const user = this;
 
+  //hashing user password
   user.password = await hash(user.password, Number(config.bcrypt_salt_rounds));
   if (!user.needsPasswordChange) {
     user.passwordChangedAt = new Date();
