@@ -10,6 +10,7 @@ import config from '../../../config';
 import ApiError from '../../../errors/ApiError';
 import { User } from '../users/user.model';
 
+//login User
 const loginUser = catchAsync(async (req: Request, res: Response) => {
   //   console.log(req.body);
   const { ...loginData } = req.body;
