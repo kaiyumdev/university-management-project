@@ -14,6 +14,7 @@ import { Secret } from 'jsonwebtoken';
 //   };
 // }
 
+//auth service
 const auth =
   (...requiredRoles: string[]) =>
   async (req: Request, res: Response, next: NextFunction) => {
